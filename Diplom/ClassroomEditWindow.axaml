@@ -1,0 +1,87 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="600"
+        x:Class="Diplom.ClassroomEditWindow"
+        Title="Редактирование аудитории"
+        Width="450"
+        Height="600"
+		xmlns:models="clr-namespace:Diplom.Models"
+        WindowStartupLocation="CenterScreen"
+        Background="#f5f5f5">
+
+	<!--<Window.Styles>
+		<StyleInclude Source="avares://Diplom/Assets/Styles.xaml"/>
+	</Window.Styles>-->
+
+	<Border Classes="card" Margin="20" Padding="20">
+		<Grid RowDefinitions="Auto,*,Auto">
+			<!-- Заголовок -->
+			<TextBlock Grid.Row="0"
+                       Text="Информация об аудитории"
+                       Classes="header"
+                       Margin="0,0,0,20"/>
+
+			<!-- Форма -->
+			<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+				<StackPanel Spacing="15">
+					<StackPanel>
+						<TextBlock Text="Номер аудитории" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="RoomNumberTextBox" Watermark="Например: 101"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Название аудитории" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="RoomNameTextBox" Watermark="Например: Лаборатория информатики"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Описание" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="DescriptionTextBox"
+                                 Watermark="Описание аудитории..."
+                                 Height="80"
+                                 AcceptsReturn="True"
+                                 TextWrapping="Wrap"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Вместимость" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="CapacityTextBox"
+                                 Watermark="Количество мест"
+                                 Text="0"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Ответственное лицо" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<ComboBox x:Name="ResponsibleComboBox"
+                                  PlaceholderText="Выберите из списка"/>
+					</StackPanel>
+
+					<CheckBox x:Name="IsActiveCheckBox"
+                              Content="Аудитория активна"
+                              IsChecked="True"
+                              FontSize="14"/>
+				</StackPanel>
+			</ScrollViewer>
+
+			<!-- Кнопки и статус -->
+			<StackPanel Grid.Row="2" Spacing="10">
+				<TextBlock x:Name="StatusTextBlock"
+                           Classes="status"
+                           TextWrapping="Wrap"/>
+
+				<Grid ColumnDefinitions="*,*" Margin="0,10,0,0">
+					<Button Grid.Column="0"
+                            Content="Сохранить"
+                            Click="SaveButton_Click"
+                            Margin="0,0,5,0"/>
+					<Button Grid.Column="1"
+                            Content="Отмена"
+                            Click="CancelButton_Click"
+                            Classes="secondary"/>
+				</Grid>
+			</StackPanel>
+		</Grid>
+	</Border>
+</Window>

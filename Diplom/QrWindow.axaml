@@ -1,0 +1,122 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
+        x:Class="Diplom.QrWindow"
+		xmlns:models="clr-namespace:Diplom.Models"
+        WindowStartupLocation="CenterScreen"
+        Title="Управление аудиториями"
+		Height="650"
+        Background="#f5f5f5">
+
+
+	<Grid RowDefinitions="Auto,*,Auto" >
+		<!-- Верхняя панель -->
+		<Border Background="#283593" Grid.Row="0" Padding="20" CornerRadius="0">
+			<TextBlock Text="КСИПТ"
+                       Foreground="White"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+		</Border>
+
+		<!-- Основной контент -->
+		<Grid Grid.Row="1" Margin="40" ColumnDefinitions="*,*,*,*"  RowDefinitions="Auto,*">
+			<!-- Кнопки навигации -->
+			<Button Content="Аудитории"
+					HorizontalAlignment="Stretch"
+					HorizontalContentAlignment="Center"
+                    Grid.Column="0"
+                    Margin="10"
+                    Height="50"
+                    Click="ClassroomClick"/>
+			<Button Content="Инвентарь"
+					HorizontalAlignment="Stretch"
+					HorizontalContentAlignment="Center"
+                    Grid.Column="1"
+                    Margin="10"
+                    Height="50"
+                    Click="InventoryClick"/>
+			<Button Content="Сотрудники"
+					HorizontalAlignment="Stretch"
+					HorizontalContentAlignment="Center"
+                    Grid.Column="2"
+                    Margin="10"
+                    Height="50"
+                    Click="PeopleClick"/>
+			<Button Content="Статистика"
+					HorizontalAlignment="Stretch"
+					HorizontalContentAlignment="Center"
+                    Grid.Column="3"
+                    Margin="10"
+                    Height="50"/>
+
+			<!-- Область QR-кода -->
+			<Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" 
+                    Classes="card"
+                    Margin="20"
+                    Padding="30">
+				<Grid  ColumnDefinitions="1*,2*"   RowDefinitions="*,Auto,*">
+					<TextBlock Text="Генератор QR-кодов"
+                               Classes="header"
+							   Grid.Column="0"
+							   Grid.Row="0"
+                               Grid.ColumnSpan="2"
+                               Margin="5"/>
+
+					<!-- Левая панель - выбор кабинета -->
+					<StackPanel Grid.Column="0" Margin="5" Spacing="15" Grid.Row="1">
+						<TextBlock Text="Выберите кабинет" Classes="subheader"/>
+						<ComboBox x:Name="ClassroomComboBox"
+								  SelectionChanged="ComboBox_SelectionChanged"
+                                  PlaceholderText="Кабинет..."
+                                  Height="40"/>
+						<Button Content="Сгенерировать QR-код"
+                                Click="Generate_qr_click"
+                                />
+						<Button Content="Сохранить изображение" Click="Button_Click_1"/>
+					</StackPanel>
+
+					<!-- Правая панель - QR-код -->
+					<Border Grid.Column="1"
+							Grid.Row="0"
+							Grid.RowSpan="2"
+                            Background="White"
+                            CornerRadius="8"
+                            Margin="20,0,0,0"
+                            Padding="20"
+                            >
+						<StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center" Orientation="Vertical">
+							<Image x:Name="QrCodeImage"
+								   Width="250"
+								   Height="250"
+								   Stretch="Uniform"/>
+							<SelectableTextBlock x:Name="qrPath"
+									   Margin="0,10,0,0"
+									   Cursor="IBeam"
+									   HorizontalAlignment="Center"/>
+						</StackPanel>
+					</Border>
+
+					<!-- Кнопка сохранения -->
+					
+					
+				</Grid>
+			</Border>
+
+			
+
+
+		</Grid>
+
+		<!-- Нижняя панель -->
+		<Border  Background="#e0e0e0" Grid.Row="2" Padding="10">
+			<TextBlock Text="© 2024 FunkyPop - Дипломный проект"
+                       Foreground="#757575"
+                       HorizontalAlignment="Center"
+                       FontSize="12"/>
+		</Border>
+	</Grid>
+</Window>

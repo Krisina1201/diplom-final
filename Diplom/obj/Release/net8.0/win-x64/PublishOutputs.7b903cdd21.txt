@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\Diplom\Diplom\bin\Release\net8.0\win-x64\publish\Diplom.pdb
+C:\Users\Admin\source\repos\Diplom\Diplom\bin\Release\net8.0\win-x64\publish\Diplom.exe

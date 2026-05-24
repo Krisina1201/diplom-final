@@ -1,0 +1,77 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="600"
+        x:Class="Diplom.ResponsiblePersonEditWindow"
+        Title="Редактирование сотрудника"
+        Width="450"
+		xmlns:models="clr-namespace:Diplom.Models"
+        Height="600"
+        WindowStartupLocation="CenterScreen"
+        Background="#f5f5f5">
+
+	
+	<Border Classes="card" Margin="20" Padding="20">
+		<Grid RowDefinitions="Auto,*,Auto">
+			<!-- Заголовок -->
+			<TextBlock Grid.Row="0"
+                       Text="Информация о сотруднике"
+                       Classes="header"
+                       Margin="0,0,0,20"/>
+
+			<!-- Форма -->
+			<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+				<StackPanel Spacing="15">
+					<StackPanel>
+						<TextBlock Text="Фамилия" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="LastNameTextBox" Watermark="Введите фамилию"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Имя" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="FirstNameTextBox" Watermark="Введите имя"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Отчество" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="MiddleNameTextBox" Watermark="Введите отчество (необязательно)"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Должность" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="PositionTextBox" Watermark="Введите должность"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Телефон" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="PhoneTextBox" Watermark="+7 (999) 999-99-99"/>
+					</StackPanel>
+
+					<StackPanel>
+						<TextBlock Text="Email" FontWeight="SemiBold" Margin="0,0,0,5"/>
+						<TextBox x:Name="EmailTextBox" Watermark="example@mail.ru"/>
+					</StackPanel>
+				</StackPanel>
+			</ScrollViewer>
+
+			<!-- Кнопки и статус -->
+			<StackPanel Grid.Row="2" Spacing="10">
+				<TextBlock x:Name="StatusTextBlock"
+                           Classes="status"
+                           TextWrapping="Wrap"/>
+
+				<Grid ColumnDefinitions="*,*" Margin="0,10,0,0">
+					<Button Grid.Column="0"
+                            Content="Сохранить"
+                            Click="SaveButton_Click"
+                            Margin="0,0,5,0"/>
+					<Button Grid.Column="1"
+                            Content="Отмена"
+                            Click="CancelButton_Click"
+                            Classes="secondary"/>
+				</Grid>
+			</StackPanel>
+		</Grid>
+	</Border>
+</Window>

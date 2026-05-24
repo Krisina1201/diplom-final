@@ -1,0 +1,123 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="700"
+        x:Class="Diplom.InventoryWindow"
+        WindowStartupLocation="CenterScreen"
+        Title="Управление инвентарем"
+		xmlns:models="clr-namespace:Diplom.Models"
+        Background="#f5f5f5">
+
+	<Grid Margin="20" RowDefinitions="Auto,Auto,*">
+		<!-- Заголовок -->
+		<TextBlock Grid.Row="0" Text="Инвентарь" FontSize="20" FontWeight="Bold" Foreground="#1a237e" Margin="0,0,0,20"/>
+
+		<!-- Панель инструментов -->
+		<Border Grid.Row="1" Background="White" CornerRadius="8" Padding="15" Margin="0,0,0,20">
+			<StackPanel Orientation="Horizontal" Spacing="10" HorizontalAlignment="Right">
+				<ComboBox x:Name="ClassroomFilterComboBox"
+                          Width="200"
+                          PlaceholderText="Все аудитории"
+                          SelectionChanged="ClassroomFilter_SelectionChanged"/>
+
+				<ComboBox x:Name="TypeFilterComboBox"
+                          Width="150"
+                          PlaceholderText="Все типы"
+                          SelectionChanged="TypeFilter_SelectionChanged"/>
+
+				<Button Content="Добавить инвентарь"
+                        Click="AddInventory_Click"
+                        Background="#283593"
+                        Foreground="White"
+                        Padding="16,8"/>
+
+				<Button Content="Назад"
+                        Click="BackButton_Click"
+                        Background="#757575"
+                        Foreground="White"
+                        Padding="16,8"/>
+			</StackPanel>
+		</Border>
+
+		<!-- Список инвентаря -->
+		<ListBox x:Name="InventoryListBox" Grid.Row="2" Background="Transparent">
+			<ListBox.ItemTemplate>
+				<DataTemplate DataType="models:Inventory">
+					<Border Background="White" CornerRadius="8" Margin="10" Padding="15">
+						<Grid>
+							<Grid.RowDefinitions>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="Auto"/>
+							</Grid.ColumnDefinitions>
+
+							<!-- Наименование и тип -->
+							<StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,10">
+								<Border Background="#e0e0e0" CornerRadius="4" Padding="8,4" Margin="0,0,10,0">
+									<TextBlock Text="{Binding ItemTypeNavigation.InventoryTypeTitle}"/>
+								</Border>
+								<TextBlock Text="{Binding ItemName}"
+                                           FontSize="16"
+                                           FontWeight="Bold"
+                                           Foreground="#283593"
+                                           VerticalAlignment="Center"/>
+							</StackPanel>
+
+							<!-- Детали -->
+							<WrapPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,10">
+								<Border Background="#f0f0f0" CornerRadius="4" Padding="8,4" Margin="0,0,5,5">
+									<TextBlock Text="{Binding Classroom.RoomNumber}"/>
+								</Border>
+								<Border Background="#f0f0f0" CornerRadius="4" Padding="8,4" Margin="0,0,5,5">
+									<TextBlock Text="{Binding Manufacturer}"/>
+								</Border>
+								<Border Background="#f0f0f0" CornerRadius="4" Padding="8,4" Margin="0,0,5,5">
+									<TextBlock Text="{Binding Model}"/>
+								</Border>
+								<Border Background="#f0f0f0" CornerRadius="4" Padding="8,4" Margin="0,0,5,5">
+									<TextBlock>
+										<Run Text="Инв. №: "/>
+										<Run Text="{Binding InventoryNumber}"/>
+									</TextBlock>
+								</Border>
+							</WrapPanel>
+
+							<!-- Описание состояния -->
+							<TextBlock Grid.Row="2" Grid.Column="0"
+                                       Text="{Binding ConditionDescription}"
+                                       TextWrapping="Wrap"
+                                       Foreground="#757575"
+                                       Margin="0,0,0,10"/>
+
+							<!-- Кнопки -->
+							<StackPanel Grid.Row="0" Grid.Column="1"
+                                        Grid.RowSpan="3"
+                                        Orientation="Horizontal"
+                                        VerticalAlignment="Center">
+								<Button Content="Редактировать"
+                                        CommandParameter="{Binding}"
+                                        Click="EditInventory_Click"
+                                        Background="#283593"
+                                        Foreground="White"
+                                        Margin="0,0,5,0"
+                                        Padding="12,6"/>
+								<Button Content="Удалить"
+                                        CommandParameter="{Binding}"
+                                        Click="DeleteInventory_Click"
+                                        Background="#b00020"
+                                        Foreground="White"
+                                        Padding="12,6"/>
+							</StackPanel>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
+</Window>
