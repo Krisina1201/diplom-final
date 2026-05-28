@@ -25,6 +25,9 @@ C:\Users\Admin\.nuget\packages\avalonia.win32\11.2.1\lib\net8.0\Avalonia.Win32.d
 C:\Users\Admin\.nuget\packages\avalonia.x11\11.2.1\lib\net8.0\Avalonia.X11.dll
 C:\Users\Admin\.nuget\packages\dialoghost.avalonia\0.8.1\lib\netstandard2.0\DialogHost.Avalonia.dll
 C:\Users\Admin\.nuget\packages\harfbuzzsharp\7.3.0.2\lib\net6.0\HarfBuzzSharp.dll
+C:\Users\Admin\.nuget\packages\livechartscore\2.0.0-rc4.5\lib\net8.0\LiveChartsCore.dll
+C:\Users\Admin\.nuget\packages\livechartscore.skiasharpview.avalonia\2.0.0-rc4.5\lib\net8.0\LiveChartsCore.SkiaSharpView.Avalonia.dll
+C:\Users\Admin\.nuget\packages\livechartscore.skiasharpview\2.0.0-rc4.5\lib\net8.0\LiveChartsCore.SkiaSharpView.dll
 C:\Users\Admin\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.13\ref\net8.0\Microsoft.CSharp.dll
 C:\Users\Admin\.nuget\packages\microsoft.entityframeworkcore.abstractions\8.0.10\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -50,6 +53,7 @@ C:\Users\Admin\.nuget\packages\npgsql\8.0.5\lib\net8.0\Npgsql.dll
 C:\Users\Admin\.nuget\packages\npgsql.entityframeworkcore.postgresql\8.0.10\lib\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Admin\.nuget\packages\qrcoder\1.4.1\lib\netstandard2.0\QRCoder.dll
 C:\Users\Admin\.nuget\packages\skiasharp\2.88.8\lib\net6.0\SkiaSharp.dll
+C:\Users\Admin\.nuget\packages\skiasharp.harfbuzz\2.88.8\lib\net6.0\SkiaSharp.HarfBuzz.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.13\ref\net8.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.13\ref\net8.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.13\ref\net8.0\System.Collections.Concurrent.dll

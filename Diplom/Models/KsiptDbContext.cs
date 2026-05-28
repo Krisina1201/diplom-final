@@ -19,13 +19,15 @@ public partial class KsiptDbContext : DbContext
 
     public virtual DbSet<Inventory> Inventories { get; set; }
 
+    public virtual DbSet<InventoryHistory> InventoryHistories { get; set; }
+
     public virtual DbSet<InventoryType> InventoryTypes { get; set; }
 
     public virtual DbSet<ResponsiblePerson> ResponsiblePersons { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Database=ksipt_db;Username=ksipt_user;Password=1234;Host=83.166.246.113");
+        => optionsBuilder.UseNpgsql("Database=ksipt_db;Host=83.166.246.113;Username=ksipt_user;Password=1234");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -95,7 +97,9 @@ public partial class KsiptDbContext : DbContext
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("created_at");
-            entity.Property(e => e.InventoryNumber).HasColumnName("inventory_number");
+            entity.Property(e => e.InventoryNumber)
+                .IsRequired()
+                .HasColumnName("inventory_number");
             entity.Property(e => e.ItemName)
                 .HasMaxLength(100)
                 .HasColumnName("item_name");
@@ -123,6 +127,45 @@ public partial class KsiptDbContext : DbContext
                 .HasForeignKey(d => d.ItemType)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("inventory_item_type_fk");
+        });
+
+        modelBuilder.Entity<InventoryHistory>(entity =>
+        {
+            entity.HasKey(e => e.InventoryHistoryId).HasName("inventory_history_pk");
+
+            entity.ToTable("inventory_history");
+
+            entity.Property(e => e.InventoryHistoryId)
+                .HasDefaultValueSql("nextval('inventory_history_inventory_history_seq'::regclass)")
+                .HasColumnName("inventory_history_id");
+            entity.Property(e => e.DateOfTransfer)
+                .HasColumnType("timestamp without time zone")
+                .HasColumnName("date_of_transfer");
+            entity.Property(e => e.FinalClassroom).HasColumnName("final_classroom");
+            entity.Property(e => e.InitialClassroomId).HasColumnName("initial_classroom_id");
+            entity.Property(e => e.InventoryId).HasColumnName("inventory_id");
+            entity.Property(e => e.ResponsiblePersonsId).HasColumnName("responsible_persons_id");
+
+            entity.HasOne(d => d.FinalClassroomNavigation).WithMany(p => p.InventoryHistoryFinalClassroomNavigations)
+                .HasForeignKey(d => d.FinalClassroom)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("inventory_history_classrooms_fk_1");
+
+            entity.HasOne(d => d.InitialClassroom).WithMany(p => p.InventoryHistoryInitialClassrooms)
+                .HasForeignKey(d => d.InitialClassroomId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("inventory_history_classrooms_fk");
+
+            entity.HasOne(d => d.Inventory).WithMany(p => p.InventoryHistories)
+                .HasPrincipalKey(p => p.InventoryNumber)
+                .HasForeignKey(d => d.InventoryId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("inventory_history_inventory_fk");
+
+            entity.HasOne(d => d.ResponsiblePersons).WithMany(p => p.InventoryHistories)
+                .HasForeignKey(d => d.ResponsiblePersonsId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("inventory_history_responsible_persons_fk");
         });
 
         modelBuilder.Entity<InventoryType>(entity =>

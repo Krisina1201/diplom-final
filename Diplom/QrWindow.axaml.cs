@@ -138,4 +138,10 @@ public partial class QrWindow : Window
 
         }
     }
+
+    private void Button_Click_2(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        HistoryWindow historyWindow = new HistoryWindow();
+        historyWindow.Show(); this.Close();
+    }
 }

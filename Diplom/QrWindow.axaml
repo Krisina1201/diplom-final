@@ -49,6 +49,7 @@
 					HorizontalAlignment="Stretch"
 					HorizontalContentAlignment="Center"
                     Grid.Column="3"
+					Click="Button_Click_2"
                     Margin="10"
                     Height="50"/>
 

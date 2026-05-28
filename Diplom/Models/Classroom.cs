@@ -27,5 +27,9 @@ public partial class Classroom
 
     public virtual ICollection<Inventory> Inventories { get; set; } = new List<Inventory>();
 
+    public virtual ICollection<InventoryHistory> InventoryHistoryFinalClassroomNavigations { get; set; } = new List<InventoryHistory>();
+
+    public virtual ICollection<InventoryHistory> InventoryHistoryInitialClassrooms { get; set; } = new List<InventoryHistory>();
+
     public virtual ResponsiblePerson? Responsible { get; set; }
 }

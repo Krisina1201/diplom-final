@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Diplom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\historywindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\historywindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\historywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\historywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\diplom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\diplom.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\qrwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\qrwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\qrwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\qrwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\classroomeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\classroomeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\inventoryeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventoryeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\inventoryeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventoryeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\responsibleperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\responsibleperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\ksiptdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\ksiptdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\inventorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\inventorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\inventoryhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\inventoryhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\responsiblepersoneditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -27,64 +91,20 @@
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventorywindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\inventoryeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventoryeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\classroomeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\classroomeditwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\ksiptdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\ksiptdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\responsibleperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\responsibleperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\inventorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\inventorytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\qrwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\qrwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\assets\\styles.xaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\assets\\styles.xaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\classroomeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\classroomeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\classroomwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\classroomwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\inventoryeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventoryeditwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\inventorywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\inventorywindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|solutionrelative:diplom\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7D58FA3-C23A-4124-92F0-5044189BB225}|Diplom\\Diplom.csproj|c:\\users\\admin\\source\\repos\\diplom\\diplom\\responsiblepersonwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -98,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 363,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,32 +149,211 @@
               "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoryWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\HistoryWindow.axaml",
+              "RelativeDocumentMoniker": "Diplom\\HistoryWindow.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\HistoryWindow.axaml",
+              "RelativeToolTip": "Diplom\\HistoryWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-27T16:29:22.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistoryWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\HistoryWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\HistoryWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\HistoryWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\HistoryWindow.axaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:29:22.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Diplom\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml",
+              "RelativeToolTip": "Diplom\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T13:34:37.535Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ResponsiblePersonWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Diplom\\ResponsiblePersonWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonWindow.axaml.cs",
-              "RelativeToolTip": "Diplom\\ResponsiblePersonWindow.axaml.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAD4v1IAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:13:14.3Z"
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\App.axaml",
+              "RelativeDocumentMoniker": "Diplom\\App.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\App.axaml",
+              "RelativeToolTip": "Diplom\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-20T17:30:17.508Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "InventoryWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Diplom\\InventoryWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryWindow.axaml.cs",
-              "RelativeToolTip": "Diplom\\InventoryWindow.axaml.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAA5wJsAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:21:57.594Z"
+              "Title": "QrWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml",
+              "RelativeDocumentMoniker": "Diplom\\QrWindow.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml",
+              "RelativeToolTip": "Diplom\\QrWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-26T07:40:16.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Diplom.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Diplom.csproj",
+              "RelativeDocumentMoniker": "Diplom\\Diplom.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Diplom.csproj",
+              "RelativeToolTip": "Diplom\\Diplom.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T17:34:45.89Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "QrWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\QrWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\QrWindow.axaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwJAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:43:33.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:32:07.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryEditWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml",
+              "RelativeDocumentMoniker": "Diplom\\InventoryEditWindow.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml",
+              "RelativeToolTip": "Diplom\\InventoryEditWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T14:17:00.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InventoryEditWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\InventoryEditWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\InventoryEditWindow.axaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:14:35.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClassroomEditWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomEditWindow.axaml",
+              "RelativeDocumentMoniker": "Diplom\\ClassroomEditWindow.axaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomEditWindow.axaml",
+              "RelativeToolTip": "Diplom\\ClassroomEditWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T15:14:24.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KsiptDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\KsiptDbContext.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\KsiptDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\KsiptDbContext.cs",
+              "RelativeToolTip": "Diplom\\Models\\KsiptDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:24:53.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResponsiblePerson.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\ResponsiblePerson.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\ResponsiblePerson.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\ResponsiblePerson.cs",
+              "RelativeToolTip": "Diplom\\Models\\ResponsiblePerson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:25:00.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventoryType.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryType.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\InventoryType.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryType.cs",
+              "RelativeToolTip": "Diplom\\Models\\InventoryType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:24:49.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryHistory.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\InventoryHistory.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryHistory.cs",
+              "RelativeToolTip": "Diplom\\Models\\InventoryHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:24:45.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Inventory.cs",
+              "RelativeToolTip": "Diplom\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:24:41.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Classroom.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Classroom.cs",
+              "RelativeDocumentMoniker": "Diplom\\Models\\Classroom.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Classroom.cs",
+              "RelativeToolTip": "Diplom\\Models\\Classroom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:24:28.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ClassroomWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomWindow.axaml.cs",
               "RelativeDocumentMoniker": "Diplom\\ClassroomWindow.axaml.cs",
@@ -166,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "ResponsiblePersonEditWindow.axaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonEditWindow.axaml",
               "RelativeDocumentMoniker": "Diplom\\ResponsiblePersonEditWindow.axaml",
@@ -177,20 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QrWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Diplom\\QrWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml.cs",
-              "RelativeToolTip": "Diplom\\QrWindow.axaml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwD8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T07:43:33.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "ResponsiblePersonEditWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonEditWindow.axaml.cs",
               "RelativeDocumentMoniker": "Diplom\\ResponsiblePersonEditWindow.axaml.cs",
@@ -202,19 +388,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InventoryEditWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml.cs",
-              "RelativeDocumentMoniker": "Diplom\\InventoryEditWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml.cs",
-              "RelativeToolTip": "Diplom\\InventoryEditWindow.axaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwCEAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ResponsiblePersonWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\ResponsiblePersonWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\ResponsiblePersonWindow.axaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAD4v1IAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T15:14:35.096Z"
+              "WhenOpened": "2026-05-23T12:13:14.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
+              "Title": "InventoryWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Diplom\\InventoryWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryWindow.axaml.cs",
+              "RelativeToolTip": "Diplom\\InventoryWindow.axaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAgwJsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T15:21:57.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ClassroomEditWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomEditWindow.axaml.cs",
               "RelativeDocumentMoniker": "Diplom\\ClassroomEditWindow.axaml.cs",
@@ -226,89 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KsiptDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\KsiptDbContext.cs",
-              "RelativeDocumentMoniker": "Diplom\\Models\\KsiptDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\KsiptDbContext.cs",
-              "RelativeToolTip": "Diplom\\Models\\KsiptDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:11:36.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponsiblePerson.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\ResponsiblePerson.cs",
-              "RelativeDocumentMoniker": "Diplom\\Models\\ResponsiblePerson.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\ResponsiblePerson.cs",
-              "RelativeToolTip": "Diplom\\Models\\ResponsiblePerson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:12:06.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventoryType.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryType.cs",
-              "RelativeDocumentMoniker": "Diplom\\Models\\InventoryType.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\InventoryType.cs",
-              "RelativeToolTip": "Diplom\\Models\\InventoryType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:12:01.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Inventory.cs",
-              "RelativeDocumentMoniker": "Diplom\\Models\\Inventory.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Inventory.cs",
-              "RelativeToolTip": "Diplom\\Models\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:11:58.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Classroom.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Classroom.cs",
-              "RelativeDocumentMoniker": "Diplom\\Models\\Classroom.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Models\\Classroom.cs",
-              "RelativeToolTip": "Diplom\\Models\\Classroom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T12:11:35.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "Diplom\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\MainWindow.axaml",
-              "RelativeToolTip": "Diplom\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T13:34:37.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InventoryEditWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml",
-              "RelativeDocumentMoniker": "Diplom\\InventoryEditWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryEditWindow.axaml",
-              "RelativeToolTip": "Diplom\\InventoryEditWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T14:17:00.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "ClassroomWindow.axaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomWindow.axaml",
               "RelativeDocumentMoniker": "Diplom\\ClassroomWindow.axaml",
@@ -319,18 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "QrWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml",
-              "RelativeDocumentMoniker": "Diplom\\QrWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\QrWindow.axaml",
-              "RelativeToolTip": "Diplom\\QrWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-26T07:40:16.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "InventoryWindow.axaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\InventoryWindow.axaml",
               "RelativeDocumentMoniker": "Diplom\\InventoryWindow.axaml",
@@ -341,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\Assets\\Styles.xaml",
               "RelativeDocumentMoniker": "Diplom\\Assets\\Styles.xaml",
@@ -352,29 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\App.axaml",
-              "RelativeDocumentMoniker": "Diplom\\App.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\App.axaml",
-              "RelativeToolTip": "Diplom\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T17:30:17.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClassroomEditWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomEditWindow.axaml",
-              "RelativeDocumentMoniker": "Diplom\\ClassroomEditWindow.axaml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ClassroomEditWindow.axaml",
-              "RelativeToolTip": "Diplom\\ClassroomEditWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-14T15:14:24.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ResponsiblePersonWindow.axaml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Diplom\\Diplom\\ResponsiblePersonWindow.axaml",
               "RelativeDocumentMoniker": "Diplom\\ResponsiblePersonWindow.axaml",
@@ -382,10 +465,6 @@
               "RelativeToolTip": "Diplom\\ResponsiblePersonWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-14T13:34:59.136Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",

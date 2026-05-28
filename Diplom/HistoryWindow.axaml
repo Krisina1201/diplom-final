@@ -1,0 +1,295 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        d:DesignWidth="1100"
+        d:DesignHeight="700"
+        x:Class="Diplom.HistoryWindow"
+        Title="Статистика перемещения оборудования"
+        Width="1100"
+		x:CompileBindings="False"
+        Height="700"
+		xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+        WindowStartupLocation="CenterScreen"
+        Background="#f5f5f5">
+
+	<Window.Styles>
+		<Style Selector="Button">
+			<Setter Property="MinHeight" Value="35"/>
+			<Setter Property="Padding" Value="15,8"/>
+			<Setter Property="Background" Value="#283593"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="BorderThickness" Value="0"/>
+			<Setter Property="Cursor" Value="Hand"/>
+		</Style>
+
+		<Style Selector="Button:pointerover">
+			<Setter Property="Background" Value="#3949AB"/>
+		</Style>
+
+		<Style Selector="Button.secondary">
+			<Setter Property="Background" Value="#757575"/>
+		</Style>
+
+		<Style Selector="Button.secondary:pointerover">
+			<Setter Property="Background" Value="#9E9E9E"/>
+		</Style>
+
+		<Style Selector="Border.card">
+			<Setter Property="Background" Value="White"/>
+			<Setter Property="CornerRadius" Value="8"/>
+			<!--<Setter Property="BoxShadow" Value="0 2px 4px rgba(0,0,0,0.1)"/>-->
+		</Style>
+
+		<Style Selector="TextBlock.header">
+			<Setter Property="FontSize" Value="18"/>
+			<Setter Property="FontWeight" Value="Bold"/>
+			<Setter Property="Foreground" Value="#212121"/>
+		</Style>
+	</Window.Styles>
+
+	<Grid RowDefinitions="Auto,*,Auto">
+		<!-- Верхняя панель -->
+		<Border Background="#283593" Grid.Row="0" Padding="20">
+			<Grid ColumnDefinitions="*,Auto,*">
+				<Button Grid.Column="0"
+                        Content="← Назад"
+                        Click="BackButton_Click"
+                        Background="#4556A0"
+                        Width="100"
+                        HorizontalAlignment="Left"/>
+				<TextBlock Grid.Column="1"
+                           Text="Статистика перемещения оборудования"
+                           Foreground="White"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"/>
+			</Grid>
+		</Border>
+
+		<!-- Основной контент -->
+		<ScrollViewer Grid.Row="1">
+			<StackPanel Margin="30">
+
+				<!-- Фильтры -->
+				<Border Background="White" CornerRadius="8" Margin="0,0,0,20" Padding="20">
+					<StackPanel>
+						<TextBlock Text="Фильтры"
+                                   FontSize="18"
+                                   FontWeight="Bold"
+                                   Margin="0,0,0,15"/>
+
+						<Grid>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="*"/>
+							</Grid.ColumnDefinitions>
+							<Grid.RowDefinitions>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+
+							<!-- Поиск -->
+							<StackPanel Margin="15,0,15,0" Grid.Column="3" >
+								<TextBlock Text="Поиск" FontWeight="SemiBold" Margin="0,0,0,5"/>
+								<TextBox x:Name="SearchTextBox"
+										 Watermark="Инв. номер, оборудование..."
+										 FontSize="14"/>
+							</StackPanel>
+
+							<!-- Период -->
+							<StackPanel Grid.Column="0" Grid.Row="0" Margin="0,0,15,15">
+								<TextBlock Text="Период" FontWeight="SemiBold" Margin="0,0,0,5"/>
+								<ComboBox x:Name="PeriodComboBox" Height="40" HorizontalAlignment="Stretch">
+									<ComboBoxItem Content="За всё время" IsSelected="True"/>
+									<ComboBoxItem Content="Последние 30 дней"/>
+									<ComboBoxItem Content="Последние 90 дней"/>
+									<ComboBoxItem Content="Последний год"/>
+								</ComboBox>
+							</StackPanel>
+
+							<!-- Кабинет -->
+							<StackPanel Grid.Column="1" Grid.Row="0" Margin="0,0,15,15">
+								<TextBlock Text="Кабинет" FontWeight="SemiBold" Margin="0,0,0,5"/>
+								<ComboBox x:Name="ClassroomFilterComboBox" Height="40" HorizontalAlignment="Stretch">
+									<ComboBoxItem Content="Все кабинеты" IsSelected="True"/>
+								</ComboBox>
+							</StackPanel>
+
+							<!-- Тип оборудования -->
+							<StackPanel Grid.Column="2" Grid.Row="0" Margin="0,0,0,15">
+								<TextBlock Text="Тип оборудования" FontWeight="SemiBold" Margin="0,0,0,5"/>
+								<ComboBox x:Name="InventoryTypeFilterComboBox" Height="40" HorizontalAlignment="Stretch">
+									<ComboBoxItem Content="Все типы" IsSelected="True"/>
+								</ComboBox>
+							</StackPanel>
+
+							<!-- Кнопки фильтрации -->
+							<StackPanel Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3"
+                                        Orientation="Horizontal"
+                                        HorizontalAlignment="Right">
+								<Button Content="Применить фильтры"
+                                        Click="ApplyFilters_Click"
+                                        Margin="0,0,10,0"/>
+								<Button Content="Сбросить"
+                                        Click="ResetFilters_Click"
+                                        Classes="secondary"
+                                        Margin="0,0,10,0"/>
+								<Button Content="Экспорт в Excel"
+                                        Click="ExportToExcel_Click"
+                                        Classes="secondary"/>
+							</StackPanel>
+						</Grid>
+					</StackPanel>
+				</Border>
+
+				<!-- Карточки статистики -->
+				<WrapPanel Margin="0,0,0,20" HorizontalAlignment="Center">
+					<!-- Всего перемещений -->
+					<Border CornerRadius="10" Background="#4CAF50" Width="200" Height="120" Margin="0,0,20,0">
+						<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+							
+							<TextBlock x:Name="TotalMovementsText"
+                                       Text="0"
+                                       FontSize="28"
+                                       FontWeight="Bold"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+							<TextBlock Text="Всего перемещений"
+                                       Foreground="White"
+                                       Opacity="0.9"
+                                       HorizontalAlignment="Center"/>
+						</StackPanel>
+					</Border>
+
+					<!-- Задействовано оборудования -->
+					<Border CornerRadius="10" Background="#2196F3" Width="200" Height="120" Margin="0,0,20,0">
+						<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+							
+							<TextBlock x:Name="UniqueEquipmentText"
+                                       Text="0"
+                                       FontSize="28"
+                                       FontWeight="Bold"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+							<TextBlock Text="Единиц оборудования"
+                                       Foreground="White"
+                                       Opacity="0.9"
+                                       HorizontalAlignment="Center"/>
+						</StackPanel>
+					</Border>
+
+					<!-- Задействовано кабинетов -->
+					<Border CornerRadius="10" Background="#FF9800" Width="200" Height="120" Margin="0,0,20,0">
+						<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+							
+							<TextBlock x:Name="UniqueClassroomsText"
+                                       Text="0"
+                                       FontSize="28"
+                                       FontWeight="Bold"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"/>
+							<TextBlock Text="Кабинетов"
+                                       Foreground="White"
+                                       Opacity="0.9"
+                                       HorizontalAlignment="Center"/>
+						</StackPanel>
+					</Border>
+
+					<!-- Самый активный кабинет -->
+					<Border CornerRadius="10" Background="#9C27B0" Width="200" Height="120">
+						<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+							
+							<TextBlock x:Name="MostActiveClassroomText"
+                                       Text="—"
+                                       FontSize="16"
+                                       FontWeight="Bold"
+                                       Foreground="White"
+                                       TextWrapping="Wrap"
+                                       TextAlignment="Center"/>
+							<TextBlock Text="Самый активный кабинет"
+                                       Foreground="White"
+                                       Opacity="0.9"
+                                       TextAlignment="Center"
+                                       FontSize="12"/>
+						</StackPanel>
+					</Border>
+				</WrapPanel>
+
+				<!-- Таблица перемещений -->
+				<Border Background="White" CornerRadius="8" Margin="0,0,0,20" Padding="20">
+					<StackPanel>
+						<TextBlock Text="История перемещений"
+								   FontSize="18"
+								   FontWeight="Bold"
+								   Margin="0,0,0,15"/>
+
+						<DataGrid x:Name="MovementsDataGrid"
+								  AutoGenerateColumns="False"
+								  CanUserResizeColumns="True"
+								  GridLinesVisibility="Horizontal"
+								  BorderThickness="0"
+								  Background="White"
+								  Height="400">
+
+							<DataGrid.Columns>
+								<DataGridTextColumn Header="Инв. номер"
+													Binding="{Binding InventoryNumber}"
+													Width="100"/>
+
+								<DataGridTextColumn Header="Оборудование"
+													Binding="{Binding ItemName}"
+													Width="200"/>
+
+								<DataGridTextColumn Header="Тип"
+													Binding="{Binding InventoryType}"
+													Width="120"/>
+
+								<DataGridTextColumn Header="Из кабинета"
+													Binding="{Binding FromClassroom}"
+													Width="150"/>
+
+								<DataGridTextColumn Header="В кабинет"
+													Binding="{Binding ToClassroom}"
+													Width="150"/>
+
+								<DataGridTextColumn Header="Дата перемещения"
+													Binding="{Binding MovementDate}"
+													Width="150"/>
+
+								<DataGridTextColumn Header="Ответственный"
+													Binding="{Binding ResponsiblePerson}"
+													Width="200"/>
+							</DataGrid.Columns>
+						</DataGrid>
+					</StackPanel>
+				</Border>
+
+				<!-- График перемещений -->
+				<Border Background="White" CornerRadius="8" Padding="20">
+					<StackPanel Spacing="15">
+						<TextBlock Text="График перемещений по месяцам"
+								   FontSize="18"
+								   FontWeight="Bold"/>
+
+						<Border Background="#F5F5F5" CornerRadius="5" Padding="20">
+							<lvc:CartesianChart x:Name="MovementsChart" Height="300"/>
+						</Border>
+					</StackPanel>
+				</Border>
+			</StackPanel>
+		</ScrollViewer>
+
+		<!-- Нижняя панель -->
+		<Border Background="#e0e0e0" Grid.Row="2" Padding="10">
+			<TextBlock Text="© 2024 КСИПТ - Дипломный проект"
+                       Foreground="#757575"
+                       HorizontalAlignment="Center"
+                       FontSize="12"/>
+		</Border>
+	</Grid>
+</Window>

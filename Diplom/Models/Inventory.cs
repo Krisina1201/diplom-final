@@ -33,5 +33,7 @@ public partial class Inventory
 
     public virtual Classroom Classroom { get; set; } = null!;
 
+    public virtual ICollection<InventoryHistory> InventoryHistories { get; set; } = new List<InventoryHistory>();
+
     public virtual InventoryType ItemTypeNavigation { get; set; } = null!;
 }

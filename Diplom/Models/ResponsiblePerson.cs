@@ -24,4 +24,6 @@ public partial class ResponsiblePerson
     public DateTime? UpdatedAt { get; set; }
 
     public virtual ICollection<Classroom> Classrooms { get; set; } = new List<Classroom>();
+
+    public virtual ICollection<InventoryHistory> InventoryHistories { get; set; } = new List<InventoryHistory>();
 }
